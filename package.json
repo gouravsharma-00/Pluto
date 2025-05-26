@@ -1,0 +1,22 @@
+{
+  "name": "pluto",
+  "version": "1.0.0",
+  "description": "your all-in-one productivity companion, built right into your browser. Stay organized, focused, and on track as you orbit through your daily life.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gouravsharma-00/Pluto.git"
+  },
+  "keywords": [
+    "productivity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gouravsharma-00/Pluto/issues"
+  },
+  "homepage": "https://github.com/gouravsharma-00/Pluto#readme"
+}
