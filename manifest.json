@@ -5,14 +5,16 @@
     "description" : 
     "all-in-one productivity companion, built right into your browser. Stay organized, focused, and on track as you orbit through your daily life",
     "icons": {
-        "16": "public/icons/icon16.png",
-        "32": "public/icons/icon32.png"
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png"
     },
     "background" : {
-        "service_worker" : "app/service/service-worker.js",
+        "service_worker" : "app/script/service-worker.js",
         "type" : "module"
     },
-    "action" : {},
+    "action" : {
+        "default_popup" : "app/index.html"
+    },
     "permissions" : [
         "scripting"
     ],

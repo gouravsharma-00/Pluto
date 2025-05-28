@@ -50,3 +50,13 @@ Lists the web pages your extension is allowed to interact with, defined using UR
         "https://*/*"
     ]
 }
+
+6. popup
+
+```js
+{
+    action: {
+        default_popup: index.html // no inline scripting
+    }
+}
+```
