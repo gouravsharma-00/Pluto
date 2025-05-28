@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "your all-in-one productivity companion, built right into your browser. Stay organized, focused, and on track as you orbit through your daily life.",
   "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,17 @@
   "bugs": {
     "url": "https://github.com/gouravsharma-00/Pluto/issues"
   },
-  "homepage": "https://github.com/gouravsharma-00/Pluto#readme"
+  "homepage": "https://github.com/gouravsharma-00/Pluto#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "vite": "^6.3.5"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.323",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react": "^4.5.0",
+    "typescript": "^5.8.3"
+  }
 }
